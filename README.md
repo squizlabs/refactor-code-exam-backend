@@ -6,7 +6,7 @@ For the purpose of this exercise assume the data/parsing is "correct". You don't
 
 ## Tasks
 
-1. Refactor and fix any iisue in this project in anyway you think is important. Limit yourself to 2 or so hours. This exam is not about you exhaustively refactoring everything. Pick what you think is the most important thing(s) to do.
+1. Refactor and fix any issue in this project in anyway you think is important. Limit yourself to 2 or so hours. This exam is not about you exhaustively refactoring everything. Pick what you think is the most important thing(s) to do.
 2. Create a `REPORT.md` file. In this report outline the issues you see with the codebase and give a brief description of why this is an issue. Also outline the changes you haven't made but would given more time.
 3. Lastly consider the applications architecture and production run time. Outline in the report what changes would you make if any to accommodate the new requirements.
 
