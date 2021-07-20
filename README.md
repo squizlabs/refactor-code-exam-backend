@@ -2,7 +2,7 @@
 
 In this scenario pretend you have just inherited this codebase from the business. The project is an api which ingests and parses some warnings and notices from the Bureau Of Meteorology. Its been running in production for the last 18 months largely without issue. It was developed by a 3rd party contractor and once the project was completed they moved on and are no longer contactable. Its been decided that you are the new owner of this project. At the moment you have no new requirements but you have been told in the near future this project is going to be critical for an important client. This client will want new features and to dramatically increase (around 1000x) the current traffic load. Your job is to get the project ready for that.
 
-As a side note, this isn't a test about figuring out the BOM standards. You don't need to look up and become an expert on the Bureau Of Meteorology AMOC standard. You can assume that the filed mappings are correct. Even though the way its being parsed may leave a little to be desired.
+As a side note, this isn't a test about figuring out the BOM standards. You don't need to look up and become an expert on the Bureau Of Meteorology AMOC standard. You can assume that the filed mappings are correct. That being said how the data is being parsed is fair game.
 
 ## Tasks
 
