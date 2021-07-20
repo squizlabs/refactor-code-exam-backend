@@ -1,0 +1,27 @@
+{
+  "name": "refactor-code-exam",
+  "version": "1.0.0",
+  "description": "In this scenario pretend you have just inherited this codebase from the business. Its been running in production for the last 18 months. It was developed by a 3rd party contractor and once the project was completed they moved on and are no longer contactable. Its been decided that you are the new owner of this project. At the moment you have no new requirements but you have been told in the near future this project is going to be critical for an important client. This client will want new features and to dramatically increase the current traffic load. Your job is to get the project ready for that.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production ts-node src/index.ts",
+    "test": "jest",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^26.0.24",
+    "basic-ftp": "^4.6.6",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "xml2js": "^0.4.23"
+  }
+}
