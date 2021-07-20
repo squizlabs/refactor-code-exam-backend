@@ -1,6 +1,8 @@
 # Squiz code exam
 
-In this scenario pretend you have just inherited this codebase from the business. Its been running in production for the last 18 months. It was developed by a 3rd party contractor and once the project was completed they moved on and are no longer contactable. Its been decided that you are the new owner of this project. At the moment you have no new requirements but you have been told in the near future this project is going to be critical for an important client. This client will want new features and to dramatically increase (around 1000x) the current traffic load. Your job is to get the project ready for that.
+In this scenario pretend you have just inherited this codebase from the business. The project is an api which ingests and parses some warnings and notices from the Bureau Of Meteorology. Its been running in production for the last 18 months largely without issue. It was developed by a 3rd party contractor and once the project was completed they moved on and are no longer contactable. Its been decided that you are the new owner of this project. At the moment you have no new requirements but you have been told in the near future this project is going to be critical for an important client. This client will want new features and to dramatically increase (around 1000x) the current traffic load. Your job is to get the project ready for that.
+
+For the purpose of this exercise assume the data/parsing is "correct". You don't need to look up and become an expert on the Bureau Of Meteorology AMOC standard. You can assume that the filed mappings are correct. Even though the way its being parsed may leave a little to be desired.
 
 ## Tasks
 
@@ -16,3 +18,13 @@ In this scenario pretend you have just inherited this codebase from the business
 ## The API
 
 To get the API to run execute a `npm run dev` for a development environment and `npm run start` for a production environment.
+
+## Endpoints:
+
+- Warnings list:
+  This end point lists all the BOM warnings by state. The state is passed in via a query param `state`.
+  Example url: `http://localhost:3000/?state=Qld`
+
+- Warning detail
+  You can the take one of the warning ids returned in the warnings list and pass it into the warning detail endpoint.
+  Example url: `http://localhost:3000/warning/IDQ10090`
