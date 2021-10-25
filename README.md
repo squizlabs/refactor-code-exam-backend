@@ -29,7 +29,7 @@ The following endpoints are available:
 2. Determine the 5 most critical parts of the project that need changing based on the scenario above. For each one, consider the changes that you would make to improve the codebase.
 3. Consider the application's architecture and production run time and think about what changes would you make (if any) to accommodate the new requirements.
 
-> **Note:** You don't need to actually write code and refactor the codebase as part of this process, but you can absolutely do so if that makes things easier or if you prefer to show your own code during the technical review.
+> **Note:** We will be discussing the issues you have found during the interview, so please make sure you note them down and that you are familiar with the codebase. You don't need to actually write code as part of this process, but you can absolutely do so if that makes things easier or if you prefer to show your own code during the technical review.
 
 ## What we're looking for
 
