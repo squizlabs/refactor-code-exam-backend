@@ -1,4 +1,4 @@
-# Squiz refactoring code review
+# Squiz backend refactoring code review
 
 This project is part of the Squiz product engineering interview process. The codebase has been written to contain multiple issues that could be identified and fixed by an engineer.
 
